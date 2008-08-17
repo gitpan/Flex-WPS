@@ -1,0 +1,259 @@
+BODY {
+ margin : 0%;
+ padding : 0;
+ border-width : 0;
+ border-style : none;
+ width : 1010px;
+ background-color: #C5D0DC;
+ font-family: Arial, Latha, sans-serif;
+      }
+TD {
+ font-size : 10pt;
+ font-family : Arial, Latha, sans-serif;
+      }
+P {
+ font-size : 10pt;
+ font-family : Arial, Latha, sans-serif;
+      }
+A:link {
+ color : Blue;
+ text-decoration : none;
+ font-family : Arial, Latha, sans-serif;
+      }
+A:visited {
+ color : Blue;
+ text-decoration : none;
+      }
+ A:active {
+ color : Blue;
+ text-decoration : underline;
+      }
+ A:hover {
+ color : Blue;
+ text-decoration : underline;
+ font-family : Arial, Latha, sans-serif;
+      }
+ A.menu:link {
+ color : Blue;
+ font-weight : bold;
+ font-size : 10pt;
+ text-decoration : none;
+ font-family : Arial, Latha, sans-serif;
+      }
+ A.menu:visited {
+ color : Blue;
+ font-weight : bold;
+ font-size : 10pt;
+ text-decoration : none;
+ font-family : Arial, Latha, sans-serif;
+      }
+ A.menu:active {
+ color : Blue;
+ font-weight : bold;
+ font-size : 10pt;
+ text-decoration : none;
+ font-family : Arial, Latha, sans-serif;
+      }
+ A.menu:hover {
+ color : Blue;
+ font-weight : bold;
+ font-size : 10pt;
+ text-decoration : underline;
+ font-family : Arial, Latha, sans-serif;
+      }
+ A.nav:link {
+ color : Blue;
+ font-weight : bold;
+ font-size : 10pt;
+ text-decoration : none;
+ font-family : Arial, Latha, sans-serif;
+      }
+ A.nav:visited {
+ color : Blue;
+ font-weight : bold;
+ font-size : 10pt;
+ text-decoration : none;
+ font-family : Arial, Latha, sans-serif;
+      }
+ A.nav:active {
+ color : Blue;
+ font-weight : bold;
+ font-size : 10pt;
+ text-decoration : none;
+ font-family : Arial, Latha, sans-serif;
+      }
+ A.nav:hover {
+ color : Blue;
+ font-weight : bold;
+ font-size : 10pt;
+ text-decoration : underline;
+ font-family : Arial, Latha, sans-serif;
+      }
+ .cathdl {
+ color : black;
+ font-weight : bold;
+ font-size : 10pt;
+ text-decoration : none;
+ font-family : Arial, Latha, sans-serif;
+      }
+ .cat {
+ color : black;
+ font-weight : bold;
+ font-size : 10pt;
+ text-decoration : none;
+ font-family : Arial, Latha, sans-serif;
+      }
+ .text {
+ font-size : 10pt;
+ font-family : Arial, Latha, sans-serif;
+      }
+ .textsmall {
+ font-size : 8pt;
+ font-family : Arial, Latha, sans-serif;
+      }
+ .texttitle {
+ color : black;
+ font-weight : bold;
+ font-size : 12pt;
+ font-family : Arial, Latha, sans-serif;
+      }
+ .time {
+ color : black;
+ font-size : 10pt;
+ font-family : Arial, Latha, sans-serif;
+      }
+ .copyleft {
+ color : #000000;
+ font-size : 8pt;
+ font-family : Arial, Latha, sans-serif;
+      }
+ .tbl_header {
+ color : #000000;
+ background-image : url(images/top_blue.jpg);
+ font-weight : bold;
+ font-size : 10pt;
+ border-left : 1px solid #a7b3bc;
+ border-right : 1px solid #a7b3bc;
+ height : 30px;
+ padding-bottom : 7px;
+ padding-left : 6px;
+ font-family : Arial, Latha, sans-serif;
+      }
+ .tbl_row_light {
+ background-color : #ffffff;
+ color : #000000;
+ font-size : 10pt;
+ font-family : Arial, Latha, sans-serif;
+      }
+ .tbl_row_dark {
+ background-color : #eff5fa;
+ color : #000000;
+ font-size : 10pt;
+ font-family : Arial, Latha, sans-serif;
+}
+
+.menuback {
+ background-color : #ebebeb;
+ font-weight : bold;
+ font-size : 8pt;
+ font-family : Arial, Latha, sans-serif;
+ border-right : 1px solid #a9a9a9;
+ border-left : 1px solid #a9a9a9;
+ width : 100%;
+ border-bottom : 2px solid #f5f5f5;
+      padding: 3px 5px 3px 5px;
+}
+
+.menub {
+ background-color : #ebebeb;
+ border-right : 1px solid #a9a9a9;
+ border-left : 1px solid #a9a9a9;
+ width : 100%;
+ border-bottom : 2px solid #f5f5f5;
+}
+.navtable {
+ background-color : #ebebeb;
+ border-right : 1px solid gray;
+ border-top : 1px solid gray;
+ border-left : 1px solid gray;
+ border-bottom : 1px solid gray;
+}
+.tablebox {
+ border-right : 1px solid gray;
+ border-top : 0px;
+ border-left : 1px solid gray;
+ border-bottom : 1px solid gray;
+}
+.bg {
+ color : #000000;
+ background-image : url(images/top_blue.jpg);
+ height : 24px;
+ border-bottom : 1px solid silver;
+ border-top : 1px solid gray;
+}
+
+.bg1 {
+background-image : url(images/top2.jpg);
+}
+
+.bg2 {
+ background-color : #CCD6DF;
+}
+ 
+ .bg3 {
+ background-color : #ebebeb;
+}
+ 
+.bg4 {
+ background-image : url(images/logo_back_ok.jpg);
+ height : 105px;
+}
+ 
+.bg5 {
+ color : #000000;
+ background-image : url(images/top_blue.jpg);
+ font-weight : bold;
+ font-size : 10pt;
+ border-left : 1px solid #a7b3bc;
+ border-right : 1px solid #a7b3bc;
+ height : 30px;
+ padding-bottom : 7px;
+ padding-left : 6px;
+ font-family : Arial, Latha, sans-serif;
+}
+
+.bg6 { 
+height : 25px;
+background-color: #C5D0DC;
+border-right: 1px solid #C5D0DC;  
+border-left: 1px solid #C5D0DC;  
+}
+.codepost { 
+background-color: #ffffff;
+ width: 80%;
+ height: auto;
+ white-space: nowrap;
+ overflow: scroll;
+ padding-left: 2px;
+ padding-bottom: 5px;
+ margin: 0;
+ top: 0;
+ left: 0;
+ float: left;
+ position: static;
+}
+.border {
+background-color: #ebebeb;
+width:80%;
+border:1px solid gray;
+padding: 1;
+ margin: 1;
+ top: 0;
+ left: 0;
+ float: left;
+ position: static;
+}
+.formfeild {
+visibility: hidden;
+font-size: 1px;
+}

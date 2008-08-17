@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<rss version="2.0">
+<channel>
+<title>Flex-WPS</title>
+<link>http://192.168.0.5/cgi-bin/001/index.tgi</link>
+<description>
+Flex-WPS RSS Feeds.
+</description>
+<language>en-us</language>
+<generator>Flex-WPS RSS Feeds</generator>
+<copyright>Copyright @ Flex-WPS</copyright>
+<pubDate>03.01.08, 14:46:04</pubDate>
+<lastBuildDate></lastBuildDate>
+<category>Flex-WPS</category>
+<image>
+<title>Flex-WPS</title>
+<url>http://192.168.0.5/001/images/pb_flex.gif</url>
+<link>http://192.168.0.5/cgi-bin/001/index.tgi</link>
+</image>
+                
+<item>
+<title>Test2 New RSS feeds</title>
+<link>http://192.168.0.5/cgi-bin/001/index.tgi?op=threads;module=Forum;cat=3;subcat=4;thread=90;sticky=articles</link>
+<description>Test2 New RSS feeds</description>
+<pubDate>03.01.08, 14:46:04</pubDate>
+</item>
+
+                
+<item>
+<title>Test2 New RSS feeds</title>
+<link>http://192.168.0.5/cgi-bin/001/index.tgi?op=threads;module=Forum;cat=1;subcat=1;thread=89;sticky=forums</link>
+<description>Test2 New RSS feeds</description>
+<pubDate>03.01.08, 13:14:21</pubDate>
+</item>
+
+                
+<item>
+<title>Test New RSS feeds</title>
+<link>http://192.168.0.5/cgi-bin/001/index.tgi?op=threads;module=Forum;cat=1;subcat=1;thread=88;sticky=forums</link>
+<description>Test New RSS feeds</description>
+<pubDate>03.01.08, 13:10:34</pubDate>
+</item>
+
+                
+<item>
+<title>Test4New RSS feeds</title>
+<link>http://192.168.0.5/cgi-bin/001/index.tgi?op=threads;module=Forum;cat=1;subcat=1;thread=87;sticky=forums</link>
+<description>Test4 New RSS feeds</description>
+<pubDate>03.01.08, 13:07:22</pubDate>
+</item>
+
+                
+<item>
+<title>Test3 New RSS feeds</title>
+<link>http://192.168.0.5/cgi-bin/001/index.tgi?op=threads;module=Forum;cat=1;subcat=1;thread=84;sticky=forums</link>
+<description>Test3 New RSS feeds</description>
+<pubDate>03.01.08, 08:56:19</pubDate>
+</item>
+
+                
+<item>
+<title>What do you like</title>
+<link>http://192.168.0.5/cgi-bin/001/index.tgi?op=threads;module=Forum;cat=8;subcat=10;thread=81;sticky=poll</link>
+<description>first subjectjkasdhjkh&lt;br&gt;asdhkjadjkasj&lt;br&gt;ajhdjkashdjkashd&lt;br&gt;jkasdjkhas jkdashdj askjdh jasdkjashdkjasjkdasjkhdjhasjkhdjashdjkhasjdlkjaslkdjaskjdklasjdkasjdkjaskjd daskjdaksjdkasdjaks&lt;br&gt;aasdasdasd&lt;br&gt;</description>
+<pubDate>23.12.07, 15:45:26</pubDate>
+</item>
+
+                
+<item>
+<title>Unicode - Chinese [ux5E73][ux96EA][ux8FCE][ux9AA8]</title>
+<link>http://192.168.0.5/cgi-bin/001/index.tgi?op=threads;module=Forum;cat=3;subcat=4;thread=80;sticky=articles</link>
+<description>The [wiki://UBBC] now supports Unicode.&lt;br&gt;&lt;br&gt;Do you Speak Chinese [b][ux5E73][ux96EA][ux8FCE][ux9AA8] [/b]?&lt;br&gt;Thats not words anyway [tongue]&lt;br&gt;&lt;br&gt;Not only Chinese but any language UTF supports&lt;br&gt;Do you know ...</description>
+<pubDate>13.11.07, 08:18:14</pubDate>
+</item>
+
+                
+<item>
+<title>RSS Feed [eek]</title>
+<link>http://192.168.0.5/cgi-bin/001/index.tgi?op=threads;module=Forum;cat=1;subcat=2;thread=79;sticky=forums</link>
+<description>So nick when where you going to tell me you where working on an RSS Feed module?&lt;br&gt;WTF?&lt;br&gt;&lt;br&gt;[lol]&lt;br&gt;I look down there and see News from PerlMonks.org [grin] &lt;br&gt;it Looks good ...</description>
+<pubDate>08.10.07, 12:59:10</pubDate>
+</item>
+
+                
+<item>
+<title>Experience and Vote system </title>
+<link>http://192.168.0.5/cgi-bin/001/index.tgi?op=threads;module=Forum;cat=1;subcat=1;thread=77;sticky=forums</link>
+<description>[b]Experience:[/b]&lt;br&gt;Posting a New Thread or Reply = +1xp&lt;br&gt;Voting on a Poll or Member = +1xp &amp;amp; -1vote&lt;br&gt;Getting a Up Vote from a Member +1xp.&lt;br&gt;&lt;br&gt;All members get atlease 3 votes a day or more depending on ...</description>
+<pubDate>27.09.07, 11:40:43</pubDate>
+</item>
+
+                
+<item>
+<title>How To use the Polls</title>
+<link>http://192.168.0.5/cgi-bin/001/index.tgi?op=threads;module=Forum;cat=1;subcat=2;thread=76;sticky=forums</link>
+<description>When you go to Post a new poll you will see the same post page as the forum.&lt;br&gt;&lt;br&gt;[b]Type the Polls subject:[/b]&lt;br&gt;&amp;quot;My Poll Subject&amp;quot;&lt;br&gt;&lt;br&gt;[b]You can Set any Symbol you ...</description>
+<pubDate>25.09.07, 10:18:53</pubDate>
+</item>
+
+                
+<item>
+<title>Test the Polls</title>
+<link>http://192.168.0.5/cgi-bin/001/index.tgi?op=threads;module=Forum;cat=8;subcat=10;thread=68;sticky=poll</link>
+<description>Yes i tested it.&lt;br&gt;No I didnt test it.</description>
+<pubDate>24.09.07, 18:36:51</pubDate>
+</item>
+
+                
+<item>
+<title>Admin area completion</title>
+<link>http://192.168.0.5/cgi-bin/001/index.tgi?op=threads;module=Forum;cat=1;subcat=1;thread=66;sticky=forums</link>
+<description>TO DO:&lt;br&gt;Edit config&lt;br&gt;Theme Edit&lt;br&gt;............................................................................................. ....................................................................................</description>
+<pubDate>23.09.07, 15:32:52</pubDate>
+</item>
+
+                
+<item>
+<title>Top Security Concerns!</title>
+<link>http://192.168.0.5/cgi-bin/001/index.tgi?op=threads;module=Forum;cat=1;subcat=9;thread=65;sticky=forums</link>
+<description>[quote][i][b]Let’s be blunt:[/b] &lt;br&gt;[b]A web developer is not qualified to do the job if he or she does not have a good understanding of web application security concepts and techniques.[/b]&lt;br&gt;Leaders of development teams must stop ...</description>
+<pubDate>20.09.07, 14:53:22</pubDate>
+</item>
+
+                
+<item>
+<title>Captcha - GD::SecurityImage</title>
+<link>http://192.168.0.5/cgi-bin/001/index.tgi?op=threads;module=Forum;cat=1;subcat=2;thread=62;sticky=forums</link>
+<description>New Captcha Module - GD::SecurityImage&lt;br&gt;This is a nice captcha script.&lt;br&gt;Comes with its own Font and can be configured from the Core ...</description>
+<pubDate>15.09.07, 13:28:31</pubDate>
+</item>
+
+                
+<item>
+<title>UBBC - Rebuilding with better tags and security!</title>
+<link>http://192.168.0.5/cgi-bin/001/index.tgi?op=threads;module=Forum;cat=3;subcat=6;thread=34;sticky=articles</link>
+<description>Big overhaul of the UBBC tags. &lt;br&gt;Code tag - make as one and test for XSS &lt;br&gt;Need Left and Rigt align - try &amp;lt;div&amp;gt;[wikiquote://]&lt;br&gt; &lt;br&gt;&amp;lt;sup&amp;gt;adadad&amp;lt;/sup&amp;gt; ...</description>
+<pubDate>15.09.07, 13:28:29</pubDate>
+</item>
+
+                
+<item>
+<title>Forum - Starting from scratch</title>
+<link>http://192.168.0.5/cgi-bin/001/index.tgi?op=threads;module=Forum;cat=1;subcat=2;thread=61;sticky=forums</link>
+<description>[[c]]....[[/c]]&lt;br&gt;Lots to do for the forum &lt;br&gt;[b]To Do:[/b] &lt;br&gt;[strike]remove the Sort data Perl and use the sql sort.[/strike]&lt;br&gt;E-mail or PM Notification &lt;br&gt;[strike]Edit Post[/strike] &lt;br&gt;Add Cat &amp;amp; ...</description>
+<pubDate>13.09.07, 16:59:09</pubDate>
+</item>
+
+                
+<item>
+<title>What do you think of the Polling system?</title>
+<link>http://192.168.0.5/cgi-bin/001/index.tgi?op=threads;module=Forum;cat=8;subcat=10;thread=67;sticky=poll</link>
+<description>WOW its Great!&lt;br&gt;Looks good andlike the intagration.&lt;br&gt;Could be better.&lt;br&gt;You call that a poll?</description>
+<pubDate>13.09.07, 16:59:08</pubDate>
+</item>
+
+
+</channel>
+</rss>

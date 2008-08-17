@@ -1,0 +1,23 @@
+[Tue Jan 22 09:40:34 2008] index.tgi: Cannot connect to 192.168.0.5: Net::FTP: connect: Unknown error at C:/Program Files/xampp/cgi-bin/001/lib/modules/FTP_mod.pm line 104.
+[Tue Jan 22 09:44:17 2008] index.tgi: Cannot connect to 192.168.0.5: Net::FTP: connect: Unknown error at C:/Program Files/xampp/cgi-bin/001/lib/modules/FTP_mod.pm line 109.
+[Tue Jan 22 09:54:05 2008] index.tgi: Cannot connect to 192.168.0.5: Net::FTP: connect: Unknown error at C:/Program Files/xampp/cgi-bin/001/lib/modules/FTP_mod.pm line 109.
+[Tue Jan 22 10:19:13 2008] index.tgi: Cannot connect to 192.168.0.5: Net::FTP: connect: Unknown error at C:/Program Files/xampp/cgi-bin/001/lib/modules/FTP_mod.pm line 110.
+[Tue Apr 22 21:03:08 2008] index.tgi: Module ( C:/Program Files/xampp/cgi-bin/001/lib/modules/Cart_user.pm ) Does not support SubLoad ( print_alert_products ) at lib/SQLSubLoad.pm line 95.
+[Tue Apr 22 21:03:17 2008] index.tgi: Module ( C:/Program Files/xampp/cgi-bin/001/lib/modules/Cart_user.pm ) Does not support SubLoad ( print_alert_products ) at lib/SQLSubLoad.pm line 95.
+[Tue Apr 22 21:03:21 2008] index.tgi: Module ( C:/Program Files/xampp/cgi-bin/001/lib/modules/Cart_user.pm ) Does not support SubLoad ( print_alert_products ) at lib/SQLSubLoad.pm line 95.
+[Sat Jul 26 09:07:32 2008] index.tgi: Portal Action ( modules ) not installed at C:/Program Files/xampp/cgi-bin/001/index.tgi line 127.
+[Mon Jul 28 08:21:19 2008] index.tgi: Portal Action ( modules ) not installed at C:/Program Files/xampp/cgi-bin/001/index.tgi line 127.
+[Mon Jul 28 08:21:54 2008] index.tgi: Portal Action ( modules ) not installed at C:/Program Files/xampp/cgi-bin/001/index.tgi line 127.
+[Fri Aug  8 12:54:04 2008] index.tgi: Module ( C:/Program Files/xampp/cgi-bin/001/lib/modules/RSS.pm ) Does not support SubLoad ( menu ) at lib/SQLSubLoad.pm line 95.
+[Fri Aug  8 13:12:54 2008] index.tgi: Module ( C:/Program Files/xampp/cgi-bin/001/lib/modules/RSS.pm ) Does not support SubLoad ( menu ) at lib/SQLSubLoad.pm line 95.
+[Fri Aug  8 13:16:57 2008] index.tgi: Module ( C:/Program Files/xampp/cgi-bin/001/lib/modules/RSS.pm ) Does not support SubLoad ( menu ) at lib/SQLSubLoad.pm line 95.
+[Fri Aug  8 13:19:23 2008] index.tgi: Module ( C:/Program Files/xampp/cgi-bin/001/lib/modules/RSS.pm ) Does not support SubLoad ( menu ) at lib/SQLSubLoad.pm line 95.
+[Fri Aug  8 13:46:53 2008] index.tgi: DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'll kick you back! <img src="http://192.168.0.5/001/images/smilies/kickyourass.gi' at line 1 at lib/SQLEdit.pm line 7.
+[Sat Aug  9 10:43:09 2008] index.tgi: Portal Action ( modules ) not installed at C:/Program Files/xampp/cgi-bin/001/index.tgi line 127.
+[Sat Aug  9 10:43:20 2008] index.tgi: Portal Action ( modules ) not installed at C:/Program Files/xampp/cgi-bin/001/index.tgi line 127.
+[Sat Aug  9 10:43:23 2008] index.tgi: Portal Action ( modules ) not installed at C:/Program Files/xampp/cgi-bin/001/index.tgi line 127.
+[Sat Aug  9 10:43:26 2008] index.tgi: Portal Action ( modules ) not installed at C:/Program Files/xampp/cgi-bin/001/index.tgi line 127.
+[Sat Aug  9 11:16:47 2008] index.tgi: Module ( C:/Program Files/xampp/cgi-bin/001/lib/modules/RSS.pm ) Does not support SubLoad ( menu ) at lib/SQLSubLoad.pm line 95.
+[Sat Aug  9 11:16:58 2008] index.tgi: Module ( C:/Program Files/xampp/cgi-bin/001/lib/modules/RSS.pm ) Does not support SubLoad ( menu ) at lib/SQLSubLoad.pm line 95.
+[Fri Aug 15 12:18:36 2008] index.tgi: Module ( C:/Program Files/xampp/cgi-bin/001/lib/modules/RSS.pm ) Does not support SubLoad ( menu ) at lib/SQLSubLoad.pm line 95.
+[Fri Aug 15 12:20:14 2008] index.tgi: Module ( C:/Program Files/xampp/cgi-bin/001/lib/modules/RSS.pm ) Does not support SubLoad ( menu ) at lib/SQLSubLoad.pm line 95.

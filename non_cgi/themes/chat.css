@@ -1,0 +1,40 @@
+body {
+   background-color: #e3eaf3;
+}
+
+input, textarea {
+   margin: 2px 4px 2px 4px;
+   border: 1px solid #dddcd8;
+   font-size: 12px;
+	font-family: Tahoma, Latha, sans-serif;
+	padding: 2px;
+}
+
+.inputText {
+display: block;
+   position: fixed;
+   left: 5px;
+   right: 10px;
+   margin-top: 5px;
+   height: 50px;
+   border: 1px solid #bfbcb8;
+   padding: 3px;
+   font-family: Tahoma, Latha, sans-serif;
+}
+.texMessages {
+width: 98%;
+ word-wrap: break-word;       /* Internet Explorer 5.5+ */
+	padding-bottom: 11px;
+	padding-left: 10px;
+	padding-right: 10px;
+   border-width: 1px;
+   border-style: solid;
+   border-color: #bfbcb8 #e0dcd8 #e0dcd8 #bfbcb8;
+   background-color: #fff;
+   font-size: 14px;
+   text-align: left;
+	font-family: Tahoma, Latha, sans-serif;
+	padding-top: 15px;
+	cursor: text;
+   }
+	

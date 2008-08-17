@@ -1,0 +1,438 @@
+=head1 Package Name
+
+AUBBC
+
+=head1 Description
+
+ AUBBC - (Advanced Universal Bulletin Board Code)
+ Tags used to create formatting effects in HTML & XHTML.
+
+=head1 Abstract
+
+ UBBC tags, (In my opinion) should be a secure way to allow users/members of a web page to use HTML/XHTML Elements.
+ Sometimes this is not the case and you will find many Web Portals or Web Application that use UBBC but do not
+ secure the tags in any way. In those bad cases the web page can be subjected to a security compramize.
+
+ This module addresses many security issues the UBBC tags may have.
+ Each message is sanitized/escaped and checked for many types of security problems befor that tag converts to HTML/XHTML.
+ To some it may have very strict security methods, but it allows you to change some of the security patterns.
+
+=head1 Settings
+
+=head2 $aubbc->settings();
+
+This is a list of Default settings and the method to change them when needed.
+
+     $aubbc->settings(
+      aubbc => 1,
+      utf => 1,
+      smileys => 1,
+      highlight => 1,
+      no_bypass => 0,
+      for_links => 0,
+      aubbc_escape => 1,
+      icon_image => 1,
+      image_hight => 60,
+      image_width => 90,
+      image_border => 0,
+      image_wrap => 1,
+      href_target => 0,
+      images_url => '',
+      html_type => 'html',
+      code_class => '',
+      code_extra => '',
+      href_class => '',
+      quote_class => '',
+      quote_extra => '',
+      other_sites_pattern => 'a-zA-Z\d\:\-\s\_\/\.',
+      bad_pattern => 'view\-source:|script:|mocha:|mailto:|about:|shell:|\.js',
+      protect_email => 1,
+      );
+
+=head2 aubbc
+
+Enable or Disable Main AUBBC Tags Default 1 is Enabled, 0 is Disable.
+
+=head2 utf
+
+Enable or Disable UFT Tags Default 1 is Enabled, 0 is Disable.
+
+=head2 smileys
+
+Enable or Disable Smiley Tags Default 1 is Enabled, 0 is Disable.
+
+=head2 highlight
+
+Enable or Disable Code Highlight Default 1 is Enabled, 0 is Disable.
+
+=head2 no_bypass
+
+Enable or Disable User Tags for Bypassing Tags Default 0 is Disable, 1 is Enabled.
+
+ Tags must at the very beginning of the message.
+  Bypass Tags:
+  #none
+  #noaubbc
+  #nobuild
+  #noutf
+  #nosmileys
+
+=head2 for_links
+
+ Enable or Disable Use Tags for Links Default 0 is Disable, 1 is Enabled.
+
+ Some AUBBC Tags are not good to use in a link like other links.
+
+ If Enabled will only use the UTF and Smiley tags.
+
+=head2 aubbc_escape
+
+Enable or Disable AUBBC Tag Escape Default 1 is Enabled, 0 is Disable.
+
+ Escaping a Tag:
+  [b]Stuff[/b] # Normal Tag Bold
+  [b]]Stuff[/b]] # Escaped Tag Bold
+  [[b]Stuff[[/b] # Escaped Tag Bold
+  [[b]]Stuff[[/b]] # Escaped Tag Bold
+  [b}}Stuff[/b}} # Escaped Tag Bold
+  {{b]Stuff{{/b] # Escaped Tag Bold
+  {{b}}Stuff{{/b}} # Escaped Tag Bold
+
+ Bugs if Enabled:
+
+ Any use of }} will equal ] and any {{ will equal [
+
+ Any use of ]] will equal ] and any [[ will equal [
+
+=head2 icon_image
+
+ Enable or Disable Custom Image Size Default 1 is Enabled, 0 is Disable.
+
+ If enabled will use the values from image_hight and image_width
+
+ in all Image Tags [img]/images/large_pic.gif[/img]
+
+=head2 image_hight
+
+ The Default Image hight is 60px.
+
+ Only used when icon_image is Enabled.
+
+=head2 image_width
+
+ The Default Image width is 90px.
+
+ Only used when icon_image is Enabled.
+
+=head2 image_border
+
+Enable or Disable Image Border Default 0 is Disable, 1 is Enabled.
+
+=head2 image_wrap
+
+ Enable or Disable Image wrap Default 1 is Enabled, 0 is Disable.
+
+ Enabled will add a space after each image & smileys.
+
+=head2 href_target
+
+ Enable or Disable href target Default 0 is Disable, 1 is Enabled.
+
+ Enabled will add target="_blank" to all href's.
+
+=head2 images_url
+
+ Default is blank.
+
+ This is the link to your images folder and is only used for Smileis.
+
+ For the smileis to work you must provide a URL.
+
+ example:
+
+ smileis must be in /smileis folder
+
+ the images_url link must have the /smileis folder in it and not point directly to /smileis.
+
+=head2 html_type
+
+Default is 'html' and the only other support is 'xhtml'
+
+=head2 code_class
+
+ Default is '' and this allows a custom class, style and/or javascript to be used in any of the [code] [c] tags.
+
+ Tag [cd] is the only tag that does not support this feature.
+
+ must have a space befor the text.
+
+ example:
+
+ code_class => ' class="quote"',
+
+ code_class => ' class="quote" onclick="....."',
+
+=head2 code_extra
+
+Default is '' and this is for a custom message, code, image, est.. to be used after the [code] [c] tags.
+
+ example:
+
+ code_extra => 'Codes may not reflect what is in the current version.',
+
+ code_extra => '<div style="clear: left"> </div>',
+
+=head2 href_class
+
+Default is '' and this allows a custom class, style and/or javascript to be used in the [url] tags.
+
+ must have a space befor the text.
+
+ example:
+ 
+ href_class => ' class="url"',
+ href_class => ' class="url" onclick="....."',
+
+=head2 quote_class
+
+Default is '' and this allows a custom class, style and/or javascript to be used in the [quote] tags.
+
+ must have a space befor the text.
+ 
+ example:
+ 
+  quote_class => ' class="quote"',
+  quote_class => ' class="quote" onclick="....."',
+
+=head2 quote_extra
+
+Default is '' and this is for a custom message, code, image, est.. to be used after a [quote] tags.
+
+example:
+ 
+  quote_extra => 'QUOTES AND SAYINGS DISPLAYED ON THIS BLOG ARE NOT WRITTEN BY THE AUTHOR OF THE BLOG.',
+  quote_extra => '<div style="clear: left"> </div>',
+
+=head2 other_sites_pattern
+
+Default is 'a-zA-Z\d\:\-\s\_\/\.' and this resticts the use of characters used in tags to other sites, not used in [url] tags.
+
+other site tags:
+ 
+  [cpan://....]
+  [google://....]
+  [wikipedia://....]
+  [wp://....]
+  [wikibooks://....]
+  [wb://....]
+  [wikiquote://....]
+  [wq://....]
+  [wikisource://....]
+  [ws://....]
+
+=head2 bad_pattern
+
+Default is 'view\-source:|script:|mocha:|mailto:|about:|shell:|\.js' and this resticts the use of characters used in [email] and all [img] tags.
+
+=head2 script_escape
+
+This will turn on or off the sanitizer/escape security for the hole message.
+
+Default is 1 on and 0 for Disable.
+
+Notes: 1)The code highlighter works best with an escaped character format like the
+script_escape => 1 setting can provide.
+
+2) If this setting is disabled and a character escaping method or security filter is not used
+can result is a security compromise of the AUBBC tags.
+
+3) if Disabled the method "$message = $aubbc->script_escape($message);" can be used on the message as needed befor do_all_ubbc() is called.
+
+
+=head2 protect_email
+
+  Default is 1 and other possible values are (0, 2, 3, 4).
+ 
+  Can add a protection to hide emails in the [email] tag from email harvisters.
+ 
+ 
+  Not 100% fool proof.
+
+        0 - has no type of protection.
+ 
+ 
+        1 - uses unicode type protection.
+ 
+ 
+        2 - uses javascript and unicode type protection.
+ 
+ 
+        3 - Javascript, random function and var names and unicode type protection.
+ 
+ 
+        4 - Javascript encryption with random function and var names
+
+
+
+=head1 Smileis Settings
+
+These are the settings for using custom smileis.
+
+Note: There are no Built-in smileis.
+
+=head2 $aubbc->smiley_hash();
+
+This is one of the two ways to import your custom smileis hash.
+
+exampl:
+
+  use AUBBC;
+  my $aubbc = new AUBBC;
+  my %smiley = (lol => 'lol.gif');
+  $aubbc->smiley_hash(%smiley);
+
+The way you use this smiley is [lol]
+ 
+Must have the images_url set to the proper location.
+ 
+images_url/smileis/lol.gif
+
+=head2 %AUBBC::SMILEYS
+
+This is one of the two ways to import your custom smiley hash.
+
+exampl:
+
+  my %smiley = (lol => 'lol.gif');
+  use AUBBC;
+  %AUBBC::SMILEYS = %smiley;
+  my $aubbc = new AUBBC;
+
+The way you use this smiley is [lol]
+
+Must have the images_url set to the proper location.
+
+images_url/smileis/lol.gif
+
+=head1 Build your own tags
+
+These are the settings and methods for using custom tags.
+
+=head2 $aubbc->add_build_tag($name,$pattern,$type,$function);
+
+name - will be the tags name
+
+pattern - limited to 'all' or 'l,n,-,:,_,s'
+
+    'all' = 'a-z\d\:\-\s\_\/\.\;\&\=\?\-\+\#\%\~\,\|'
+    'l' = 'a-z'
+    'n' = '0-9'
+    's' = ' '
+    '-' = '-'
+    ':' = ':'
+    '_' = '_'
+
+type - 1 is style [name://pattern], 2 is style [name]pattern[/name] and 3 is style [name]
+
+function - a pre-defined subroutine that recives the matched pattern and returns what you want,
+
+   Note: if the function returns undefined, '' or 0 the tag will not be changed.
+
+Usage:
+
+  package My_Message;
+  
+  use AUBBC;
+  my $aubbc = new AUBBC;
+
+  $aubbc->add_build_tag('ok','l,s',1,'My_Message::check_ok_tag');
+  $aubbc->add_build_tag('ip','',3,'My_Message::get_some_tag');
+  $aubbc->add_build_tag('agent','',3,'My_Message::get_some_tag');
+
+  my $message = '[ok://test me] [ok://test other] [ok://n0 w00rk] [ip] [agent]';
+
+  $message = $aubbc->do_all_ubbc($message);
+
+  print $message;
+
+  sub check_ok_tag {
+   my $text_from_AUBBC = shift;
+
+   if ($text_from_AUBBC eq 'test me') {
+        return 'Works Good 1';
+        }
+         else {
+               return 'Works Good 2';
+               }
+  }
+
+  sub get_some_tag {
+  my $text_from_AUBBC = shift;
+  lc($text_from_AUBBC);
+  $text_from_AUBBC = $ENV{'REMOTE_ADDR'} if ($text_from_AUBBC eq 'ip');
+  $text_from_AUBBC = $ENV{'HTTP_USER_AGENT'} if ($text_from_AUBBC eq 'agent');
+  return $text_from_AUBBC;
+  }
+
+  1;
+
+=head2 $aubbc->remove_build_tag($name, $option);
+
+There are two ways to use this.
+
+1) Remove a single built tag: $aubbc->remove_build_tag($name);
+
+2) Remove all built tags: $aubbc->remove_build_tag('', 1);
+
+=head1 Error Message
+
+=head2 $AUBBC::BAD_MESSAGE
+
+Default message is 'Error', this message is used when the code finds bad characters in [email] or [img] tags.
+
+ Usage of this setting:
+
+  use AUBBC;
+  $AUBBC::BAD_MESSAGE = 'Unathorized use of characters or pattern in this tag.';
+  # est...
+
+=head1 Debug
+
+The Debug setting will send a lot of messages to warn and is not recommened to leave on all the time.
+
+=head2 $AUBBC::DEBUG_AUBBC
+
+ Default is '' off, and Enabled is 1.
+ 
+ Usage of this setting:
+
+  use AUBBC;
+  $AUBBC::DEBUG_AUBBC = 1;
+  # est...
+
+=head1 Version
+
+Returns the current version of the module.
+
+=head2 $aubbc->version();
+
+
+ Usage:
+
+  use AUBBC;
+  my $aubbc = new AUBBC;
+
+  my $Current_Version = $aubbc->version();
+
+  print $Current_Version;
+
+=head1 COPYLEFT
+
+ AUBBC.pm, v1.0 01/20/2008 08:46:08 By: N.K.A
+
+ Advanced Universal Bulletin Board Code Tags.
+
+ Note: This code has a lot of settings and works good
+ with most default settings.
+
+=cut

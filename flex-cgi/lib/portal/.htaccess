@@ -1,0 +1,10 @@
+DirectoryIndex index.html index.cgi
+
+ErrorDocument 404 /cgi-bin/index.cgi
+ErrorDocument 403 /cgi-bin/index.cgi
+ErrorDocument 402 /cgi-bin/index.cgi
+ErrorDocument 400 /cgi-bin/index.cgi
+ErrorDocument 401 /cgi-bin/index.cgi
+ErrorDocument 500 /cgi-bin/index.cgi
+
+Options -Indexes

@@ -1,0 +1,10 @@
+DirectoryIndex index.cgi
+
+ErrorDocument 404 /cgi-bin/flex/index.cgi
+ErrorDocument 403 /cgi-bin/flex/index.cgi
+ErrorDocument 402 /cgi-bin/flex/index.cgi
+ErrorDocument 400 /cgi-bin/flex/index.cgi
+ErrorDocument 401 /cgi-bin/flex/index.cgi
+ErrorDocument 500 /cgi-bin/flex/index.cgi
+
+Options -Indexes

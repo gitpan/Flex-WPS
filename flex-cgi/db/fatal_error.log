@@ -1,0 +1,5 @@
+[Tue Aug 12 18:10:10 2008]|Global symbol "$op" requires explicit package name|C:/Program Files/xampp/cgi-bin/001/lib/modules/Calendar.pm line 19. Compilation failed in require
+[Tue Aug 12 18:15:07 2008]|Bareword "O_RDONLY" not allowed while "strict subs" in use|C:/Program Files/xampp/cgi-bin/001/lib/modules/Calendar.pm line 136. Compilation failed in require
+[Tue Aug 12 21:38:52 2008]|Can't locate Image/ExifTool.pm in @INC (@INC contains: lib . C:/Perl5/site/lib C:/Perl5/lib)|C:/Program Files/xampp/cgi-bin/001/upload.tgi line 144. 
+[Wed Aug 13 08:25:28 2008]|Undefined subroutine &Calendar::print_header called|C:/Program Files/xampp/cgi-bin/001/lib/modules/Calendar.pm line 240. 
+[Fri Aug 15 11:41:20 2008]|Can't locate Image/ExifTool.pm in @INC (@INC contains: lib . C:/Perl5/site/lib C:/Perl5/lib)|C:/Program Files/xampp/cgi-bin/001/upload.tgi line 144. 
